@@ -1,4 +1,4 @@
-package schultz.dustin.io;
+package uzoka.frank.io;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

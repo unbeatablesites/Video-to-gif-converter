@@ -1,4 +1,4 @@
-package schultz.dustin.io.health;
+package uzoka.frank.io.health;
 
 import com.justgifit.JustGifItProperties;
 import org.springframework.boot.actuate.health.Health;

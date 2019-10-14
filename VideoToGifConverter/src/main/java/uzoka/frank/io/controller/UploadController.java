@@ -1,10 +1,11 @@
-package schultz.dustin.io.controller;
+package uzoka.frank.io.controller;
 
 import com.madgag.gif.fmsware.AnimatedGifEncoder;
 import org.bytedeco.javacv.FFmpegFrameGrabber;
 import org.bytedeco.javacv.FrameGrabber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -29,7 +30,7 @@ public class UploadController {
     @Value("${multipart.location}")
     private String location;
 
-    @Inject
+    @Autowired
     private ConverterService converterService;
 
     @Inject
