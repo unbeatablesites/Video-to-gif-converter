@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfifure.EnableAutoConfiguratio=\
+com.justgifit.justGifitAutoConfiguration
